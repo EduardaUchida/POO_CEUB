@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace AppExercicioAbstracaoPOO.Model
+{
+    public class Cliente
+    {
+        public int idCliente;
+
+        public string cpf;
+
+        public string nome;
+
+        public string cnh;
+
+    }
+}
