@@ -1,0 +1,4 @@
+C:\Users\eduarda.uchida\source\repos\ConsoleApp1\AppExercicioConsoleFaixaEtaria\obj\Debug\net10.0\AppExercicioConsoleFaixaEtaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduarda.uchida\source\repos\ConsoleApp1\AppExercicioConsoleFaixaEtaria\obj\Debug\net10.0\AppExercicioConsoleFaixaEtaria.AssemblyInfoInputs.cache
+C:\Users\eduarda.uchida\source\repos\ConsoleApp1\AppExercicioConsoleFaixaEtaria\obj\Debug\net10.0\AppExercicioConsoleFaixaEtaria.AssemblyInfo.cs
+C:\Users\eduarda.uchida\source\repos\ConsoleApp1\AppExercicioConsoleFaixaEtaria\obj\Debug\net10.0\AppExercicioConsoleFaixaEtaria.csproj.CoreCompileInputs.cache
