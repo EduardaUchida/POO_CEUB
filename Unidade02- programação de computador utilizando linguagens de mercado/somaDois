@@ -1,0 +1,12 @@
+int numero, somaNumero;
+somaNumero = 0;
+
+do
+{
+Console.WriteLine("informe um numero");
+numero = Convert.ToInt32(Console.ReadLine());
+somaNumero = numero + somaNumero;
+} 
+
+while (numero != 0);
+Console.WriteLine($"a soma dos numeros informados é {somaNumero}");
