@@ -1,0 +1,26 @@
+double peso, altura, imc;
+string classificacaoImc;
+Console.WriteLine("Informe o peso da pessoa: ");
+peso = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Informe a altura da pessoa: ");
+altura = Convert.ToDouble(Console.ReadLine());
+imc = peso / Math.Pow(altura, 2);
+if (imc < 18.9)
+{
+    classificacaoImc = "Pessoa abaixo do peso"; 
+}else  if ((imc > 18.9) && (imc <= 24.9))
+{
+    classificacaoImc = "Pessoa com peso normal";
+
+}else if ((imc > 24.9) && (imc <= 29.9))
+{
+    classificacaoImc = "Pessoa com sobrepeso";
+}
+else
+{
+    classificacaoImc = "Pessoa obesa"; 
+}
+Console.WriteLine("Classificação do IMC");
+Console.WriteLine($"a PESSOA COM IMC IGUAL A {imc}");
+Console.WriteLine($"Classificação do imc {classificacaoImc}"); 
+Console.ReadKey();
