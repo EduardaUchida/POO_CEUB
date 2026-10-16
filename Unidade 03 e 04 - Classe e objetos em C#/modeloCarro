@@ -1,0 +1,31 @@
+using AppExercicioAbstracaoPOO.Model;
+
+Cliente cliente = new Cliente();
+Console.WriteLine("informe o CPF do Cliente");
+cliente.cpf = Console.ReadLine();
+Console.WriteLine("informe o nome do Cliente");
+cliente.nome = Console.ReadLine();
+Console.WriteLine("informe o CNH do Cliente");
+cliente.cnh = Console.ReadLine();
+
+string cadastroPessoa = $"Dados do Cliente\r\n" +
+                        $"CNH: {cliente.cnh}\r\n" +
+                        $"CPF: {cliente.cpf}\r\n" +
+                        $"NOME: {cliente.nome}";
+Console.WriteLine(cadastroPessoa);
+
+Carro carro = new Cliente();
+Console.WriteLine("Informe a Placa do carro");
+carro.placa = Console.ReadLine();
+Console.WriteLine("Informe o fabricante do carro");
+carro.fabricante = Console.ReadLine();
+Console.WriteLine("Informe o modelo do carro");
+carro.modelo = Console.ReadLine();
+Console.WriteLine("Informe o ano do carro");
+carro.ano = Console.ReadLine();
+Console.WriteLine("Informe a cor do carro");
+carro.cor = Console.ReadLine();
+
+string cadastroAutomovel = $"Dados do Carro\r\n" +
+                           $"PLACA: {carro.placa}\r\n";
+-----------------------------
