@@ -1,0 +1,19 @@
+Int32 idade;
+string resultado;
+
+Console.WriteLine("Informe a idade da pessoa, para saber se ela pode tirar a CSH: ");
+idade = Convert.ToInt32(Console.ReadLine());
+//if(idade >= 18)
+//{
+//    resultado = "Essa possoa pode tirar a CNH";
+
+//}
+//else
+//{
+//    resultado = "Essa pessoa NÃO pode tirar a CNH"; 
+//}
+
+resultado = (idade >= 18) ? "Essa possoa pode tirar a CNH" : "Essa pessoa NÃO pode tirar a CNH";
+
+Console.WriteLine(resultado);
+Console.ReadKey();  
