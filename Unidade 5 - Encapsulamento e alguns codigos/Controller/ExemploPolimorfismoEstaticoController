@@ -1,0 +1,36 @@
+using Microsoft.AspNetCore.Mvc;
+using WebApiExemplosPOOESW.Model;
+
+namespace WebApiExemplosPOOESW.Controllers
+{
+    public class ExemploPolimorfismoEstaticoController : Controller
+    {
+        [HttpPost ("SomarDoisNumerosInteiros")]
+        public string SomarDoisNumerosInteiros(int numero1, int numero2)
+        {
+            Calculadora calculadora = new Calculadora();
+            
+
+            return $"Resultado da soma {calculadora.Somar(numero1,numero2)}";
+        }
+
+        [HttpPost("SomarDoisNumerosReais")]
+        public string SomarDoisNumerosReais(double numero1, double numero2)
+        {
+            Calculadora calculadora = new Calculadora();
+
+
+            return $"Resultado da soma {calculadora.Somar(numero1, numero2)}";
+        }
+
+        [HttpPost("SomarTresNumerosInteiros")]
+        public string SomarTresNumerosInteiros(int numero1, int numero2, int numero3)
+        {
+            Calculadora calculadora = new Calculadora();
+
+
+            return $"Resultado da soma {calculadora.Somar(numero1, numero2, numero3)}";
+        }
+    }
+}
+ 
